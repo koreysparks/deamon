@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<conf>
+	
+	<deamon_conf>
+        <times value="20" dis="" />
+        <time_interval value="200"  dis="us"/>
+        <stop_cmd value="killall -9 -e ees_hds" />
+	<start_cmd value="./ees_hds &">
+	</deamon_conf>
+
+</conf>
